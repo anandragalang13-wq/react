@@ -2,6 +2,8 @@
 
 export default function Blogs() {
     return (
-        <h1>Blog</h1>
+        <main>
+            <h1>Detail About Blog</h1>
+        </main>
     )
 }

@@ -1,13 +1,9 @@
 //src/app/products/[productId]/page.tsx
-
-type Props = {
-    params: {
-        productId: string;
-    };
-};
-
-export default function ProductDetails({ params }: Props) {
+export default function ProductDetails({ params }: { params: { productId: string } }) {
     return (
-        <h1>Details about Product {params.productId}</h1>
+        <main>
+            <h1>Product Details</h1>
+            <p>Product ID: {params.productId}</p>
+        </main>
     );
 }

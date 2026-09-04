@@ -4,6 +4,11 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div>
+      <h1> Selamat Datang di Portal Sekolah</h1>
+      <h3><Link href="/library">Perpustakaan</Link></h3>
+      <h3><Link href="/teacher">Guru</Link></h3>
+      <hr />
+
       <h1>Welcome to Home</h1>
       <h3><Link href="/profile">Profile</Link>
         <br />
