@@ -1,8 +1,8 @@
 // src/app/blogs/second/page.tsx
 export default function SecondBlog() {
   return (
-    <div>
+    <main>
       <h1>Second Blog</h1>
-    </div>
+    </main>
   );
 }

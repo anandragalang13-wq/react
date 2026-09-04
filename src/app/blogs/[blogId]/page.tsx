@@ -7,8 +7,8 @@ type Props = {
 
 export default function BlogDetail({ params }: Props) {
   return (
-    <div>
-      <h1>Blog Detail: {params.blogId}</h1>
-    </div>
+    <main>
+      <h1>Details about Blog {params.blogId}</h1>
+    </main>
   );
 }

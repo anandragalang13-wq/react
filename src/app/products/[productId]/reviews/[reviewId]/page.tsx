@@ -9,7 +9,9 @@ type Props = {
 export default function ReviewDetails({ params }: Props) {
   return (
     <div>
-      <h1>Review {params.reviewId} for Product {params.productId}</h1>
+        <h1>Detail about Review</h1>
+        <h3>Product {params.productId}</h3>
+        <h3>Review {params.reviewId}</h3>
     </div>
   );
 }

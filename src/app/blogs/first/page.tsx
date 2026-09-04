@@ -2,6 +2,7 @@
 
 export default function FirstBlog() {
     
-    return <h1>First Blog Post</h1>
-    
+    return(
+     <h1>First Blog Post</h1>
+    )
 }
